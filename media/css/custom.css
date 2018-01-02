@@ -1,0 +1,830 @@
+/* Custom CSS */
+
+
+/* Kendo override */
+
+.k-autocomplete.k-state-default, .k-dropdown-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-picker-wrap.k-state-hover {
+	background-color: transparent !important;
+	background-image: none!important;
+	background-image: none !important;
+	background-image: none !important;
+}
+.k-autocomplete.k-state-default, .k-dropdown-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-picker-wrap.k-state-default {
+	background-color: transparent !important;
+	background-image: none!important;
+	background-image: none !important;
+	background-image: none !important;
+}
+
+.k-autocomplete .k-input, .k-dropdown-wrap .k-input, .k-numeric-wrap .k-input,.k-selectbox .k-input, .k-textbox>input {
+	height: 1.8em !important;
+	line-height: 1.8em !important;
+    padding: 0;
+}
+
+.k-picker-wrap .k-input {
+	height: 2em !important;
+}
+
+.k-input {
+	padding: 0 !important;
+}
+
+.form-group .k-grid .k-hierarchy-col, .users .k-grid .k-hierarchy-col {
+	width: 15px !important;
+}
+.products .k-grid .k-hierarchy-col {
+	width: 20px!important;
+}
+.k-combobox, .k-dropdown {
+	width: 100%;
+}
+.k-grid tbody .k-button {
+	min-width: 35px !important;
+}
+.k-button-icontext .k-icon {
+	margin: 0 !important;
+}
+.k-grid .k-grid-header .k-header .k-link {
+	white-space: nowrap !important;
+}
+.k-tabstrip-wrapper {
+	clear: both;
+	margin-bottom: 25px;
+	margin-top: 0;
+	padding: 0;
+}
+.k-window-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.k-tabstrip .k-content.k-state-active {
+	overflow: hidden!important;
+}
+.k-grid-header th.k-header {
+	font-weight: 600 !important;
+}
+.k-tooltip-content {
+	margin-right: 10px;
+	text-align: left;
+	font-size: 10px;
+	color: #fff;
+}
+.custom-tooltip,.k-widget.k-tooltip-validation.k-invalid-msg {
+	border-color: #fbeed5!important;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fcf8e3!important;
+	color: #c09853!important;
+	margin-top: 3px !important;
+	box-shadow: none !important;
+	position: relative;
+	padding: 2px 5px 1px 6px;
+}
+.clockStartDate .k-widget.k-tooltip.k-tooltip-validation.k-invalid-msg {
+	position: relative;
+	left: 30px;
+	margin: 0 !important;
+}
+.dateDILsNews span.k-widget.k-tooltip.k-tooltip-validation.k-invalid-msg {
+	position: relative;
+	left: 4px;
+}
+
+.k-list-scroller {
+    word-wrap: break-word;
+}
+
+.k-widget.k-tooltip {
+	color: #fff;
+	background-position: 50% 50% !important;
+	background-color: #000!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none !important;
+	background-image: none!important;
+	background-image: none!important;
+	word-break: break-all;
+}
+
+.k-edit-form-container .k-button {
+    margin: .30em .16em .16em;
+}
+
+.k-tooltip-validation.k-invalid-msg {
+	display: inline-block;
+    font-size: 11px;
+}
+.k-invalid-msg .k-callout {
+	display: none;
+}
+.k-i-loading, .k-loading, .k-loading-image {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.k-upload-action {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.k-window-titlebar .k-window-actions {
+    visibility: hidden;
+}
+
+.k-multiselect>.k-multiselect-wrap>.k-i-close {
+	top: 4px;
+}
+
+.k-callout-n {
+	border-bottom-color: #727273;
+}
+
+.k-filter-help-text {
+	max-height: 30em;
+	overflow: auto;
+}
+
+.k-chart-tooltip {
+	background-color: #fff7f7!important;
+	color: #000!important;
+	opacity: .9!important;
+}
+
+.k-filter-menu label, .k-filter-menu div {
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.k-filter-menu input {
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+
+.k-multiselect-wrap {
+	min-height: 1.8em;
+}
+.usergrid .k-button, .k-button-bare {
+	padding: 2px 0 2px;
+}
+
+.susarscroll .k-dropdown {
+	width: 100%;
+}
+
+#createUser .k-grid .k-state-selected {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#createUser .k-grid .k-state-selected {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#createUser .k-grid .k-alt.k-state-selected {
+	background-color: #f1f1f1;
+	color: #000000;
+}
+
+.k-pager-info, .k-pager-sizes {
+	font-size: 11px;
+}
+
+.k-grid td {
+	border-bottom: 1px solid #efefef !important;
+    border-collapse: collapse !important;
+}
+
+.susarEditfrom .k-widget.k-tooltip{
+    display:none !important;
+}
+
+.k-notification.k-notification-success {
+    background-color: #37b400;
+    color: #fff;
+    border-color: #37b400;
+}
+
+.k-notification.k-notification-info {
+    background-color: #06c;
+    color: #fff;
+    border-color: #06c;
+}
+
+.k-notification.k-notification-warning {
+    background-color: #ffb400;
+    color: #000;
+    border-color: #ffb400;
+}
+
+.k-notification.k-notification-error {
+    background-color: #db4240;
+    color: #fff;
+    border-color: #db4240;
+}
+
+.k-grid .k-loading-mask {
+  /*visibility: hidden;*/
+}
+
+.k-window>div.k-popup-edit-form {
+    padding:0 !important;
+    margin: 0 !important;
+}
+
+.k-editor-toolbar .k-colorpicker, .k-editor-toolbar .k-combobox, .k-editor-toolbar .k-dropdown, .k-editor-toolbar .k-selectbox {
+    width:140px;
+}
+.ibox,
+.k-tabstrip-wrapper {
+    margin: 0 !important;
+}
+
+#open-CIOMS-grid .k-dropdown,
+#cover-letter-grid .k-dropdown,
+#blinded-CIOMS-grid .k-dropdown,
+#cover-workflow-grid .k-dropdown,
+#cover-notification-grid .k-dropdown{
+    width: 4.5em;
+}
+
+.input-group {
+    display: inline-block !important;
+}
+
+/* Cara */
+
+.no-display {
+	display: none;
+}
+
+/******* Footer template found in dashboard *******/
+
+#distributedgrid tr.k-footer-template td {
+	background-color: #E1F0F7;
+}
+
+/******* Hide spin buttons for numeric text box *******/
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+/******* 'X' input *******/
+
+.clearable-input, .clearable-input-edit {
+	position: relative;
+	/*display: inline-block;*/
+}
+.clearable-input>input, .clearable-input-edit>input {
+	padding-right: 1.4em;
+}
+.clearable-input>[data-clear-input], .clearable-input-edit>[data-clear-input] {
+	display: none;
+	position: absolute;
+	top: 32px;
+	right: 5px;
+	cursor: pointer;
+	font-size: 11px;
+}
+.k-combobox .k-input {
+	padding-right: 17px !important;
+}
+.clearable-input>input::-ms-clear, .clearable-input-edit>input::-ms-clear, input[role=combobox]::-ms-clear {
+	display: none;
+}
+.k-combobox>.k-dropdown-wrap>.k-i-close {
+	/* consistent 'X' size */
+	font-size: 11px;
+	right: 2.7em;
+}
+.grid-search.clearable-input>[data-clear-input] {
+	top: 9px;
+	right: 55px;
+}
+
+.userProductLink.grid-search.clearable-input>[data-clear-input] {
+	top: 9px;
+	right: 75px;
+}
+
+#dils-product-grid .grid-search.clearable-input > [data-clear-input] {
+	right: 305px;
+}
+/******* end of 'X' input *******/
+
+
+/******* Hide daily tracker horizontal scrollbar *******/
+
+#daily-tracker-grid>.k-grid-header, #usergrid>.k-grid-header, #productgrid:not(.dashboard-grid)>.k-grid-header {
+	padding: 0 !important;
+}
+#daily-tracker-grid>.k-grid-content, #usergrid>.k-grid-content, #productgrid:not(.dashboard-grid)>.k-grid-content {
+	overflow-y: hidden;
+}
+.susar-grid-detail>.k-grid-content, .user-grid-detail>.k-grid-content, .product-grid-detail>.k-grid-content {
+	max-height: 500px;
+}
+
+/******* End of Hide daily tracker horizontal scrollbar *******/
+
+
+/******* Hide clear 'X' icon for read only multiselect widget *******/
+
+.dil-product li {
+	padding-right: .4em !important;
+}
+.dil-product li .k-select {
+	display: none;
+}
+
+/******* End of Hide clear 'X' icon for read only multiselect widget *******/
+
+
+/******* Combobox 'X' icon overlaps text [from latest Kendo 2017.1.223 CSS file] *******/
+
+.k-combobox .k-input {
+	padding-right: 1.9em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/******* End of Combobox 'X' icon overlaps text [from latest Kendo 2017.1.223 CSS file] *******/
+
+
+/******* Ellipsis on text beyond input textbox width *******/
+
+#createSusar input[type='text'], [name='editSusarForm'] input[type='text'], #createProduct input[type='text'], [name='editProductForm'] input[type='text'] {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*padding: 3px 18px 0 10px;*/
+}
+
+/******* Sanofi logo in DILs by Product page *******/
+
+.dil-sanofi-logo {
+	/*float: right;*/
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+/******* Fixed position for buttons in create SUSAR *******/
+
+.create-buttons {
+	clear: both;
+	text-align: right;
+	border-width: 1px 0 0;
+	border-style: solid;
+	position: relative;
+	bottom: -1em;
+	padding: .6em;
+}
+
+/******* Content in window for scrollable area *******/
+
+.window-content {
+	/*height: 60em;*/
+	overflow: hidden;
+}
+#createSusar {
+	overflow: hidden;
+}
+
+/******* Link inside input textbox *******/
+
+.link-textbox, .link-textbox:disabled {
+	cursor: pointer!important;
+	padding: 6px 12px;
+	color: #3276b1;
+	text-decoration: none;
+	background-color: transparent;
+}
+.blinded-cioms-url, .open-cioms-url {
+	word-wrap: break-word;
+	background-color: #eeeeee;
+}
+
+/******* Dashboard *******/
+
+.dashboard-grid .k-grid-content {
+	max-height: 270px;
+}
+
+/* Val */
+
+.hideDIL {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+.studycheckbox {
+	height: 15px !important;
+}
+.hide {
+	visibility: hidden;
+}
+.primaryInvestigationalProduct {
+	background-color: #d3d3d3 !important;
+}
+
+/* Eugene */
+
+#userProductCreate table {
+	/*Linked products stop string overflow eu*/
+	table-layout: fixed;
+}
+.no-hover:hover {
+	/* example color */
+	background: #ffffff !important;
+}
+.disablepaging {
+	pointer-events: none;
+	cursor: default;
+	opacity: 0.4;
+}
+
+/* Chris */
+
+a.k-button, a.k-button-bare {
+   box-shadow: none !important;
+}
+
+#product-page ul.nav.navbar-nav.navbar-left{
+    display:none;
+}
+
+#product-page ul.nav.navbar-top-links.navbar-right li > span.welcomemsg {
+    display:none;
+} 
+
+#editUserlistgroup input.form-control,
+#editUserlistgroup input.k-textbox {
+    padding:3px 5px;
+    height: 26px;
+}
+
+.input-group-btn {
+    font-size:inherit !important;
+}
+
+.frb-default {
+    overflow: hidden;
+}
+
+.frb-default label.list-vertical {
+    width: 235px;
+    float: right;
+    padding: 0 10px;
+    font-weight: 400 !important;
+    word-wrap: break-word;
+}
+
+#dilByStudy .form-group,
+#distributedform .form-group,
+#dilByProduct .form-group,
+#dilByProductEntity .form-group,
+#dilBySponsorship .form-group{
+    margin-bottom: 0px;
+}
+
+.heading {
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.list-group {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ .list-group-item {
+    padding: 10px 10px;
+}
+
+textarea.k-textbox {
+    padding: 2px .9em !important;
+}
+
+textarea { resize: none !important; }
+
+:-ms-input-placeholder { /* IE10–11 */
+    color: #ABABAB !important;
+}
+
+
+.warning, .approved, .danger, .info{
+    font-size: 14px;
+    padding: 3px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.with-correction-status {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.correction-warning {
+    background-color: #F5768D !important;
+    border-color: #F5768D!important;
+    background-image: none !important;
+    background-position: 0 !important;
+    color: #fff !important;
+}
+
+.file-box {
+    width: 150px !important;
+}
+
+i.fa.fa-lg.fa-fw.fa-user {
+	font-size: 24px !important;
+}
+.navbar-top-links li {
+	display: inline !important;
+	margin-right: 10px;
+	float: left;
+}
+.filterData {
+	width: 200px;
+	overflow-wrap: break-word;
+}
+.filterData p {
+	margin: 0;
+}
+.filterData button.k-button.k-primary, .filterData button.k-button {
+	width: auto !important;
+	margin: .5em 2px 0 0!important;
+}
+.filterData p label {
+	width: 80%;
+	font-weight: 500;
+}
+.filterData p input {
+	vertical-align: top;
+}
+#susarEditfrom input.form-control .k-widget.k-tooltip {
+	background-color: transparent !important;
+}
+#welcome-message-grid .k-pager-wrap.k-grid-pager.k-widget.k-floatwrap {
+	display: none;
+}
+#blinded-CIOMS-listview, #open-CIOMS-listview, #cover-letter-listview {
+	font-size: 15px;
+	border: 0;
+	line-height: 1.8;
+}
+.ranges li.active {
+	background-color: #13688c !important;
+	border: #13688c!important;
+}
+.ranges li:hover {
+	background-color: #13688c!important;
+	border: 1px solid #13688c!important;
+}
+.btn-success {
+	background-color: #13688c!important;
+	border-color: #13688c!important;
+}
+div#studyId-list {
+	width: 369px !important;
+}
+.closeicon {
+	background: #fff url(../img/close.png) no-repeat right -10px center;
+}
+.closeicon.x {
+	background-position: right 10px center;
+}
+.closeicon.onX {
+	cursor: pointer;
+}
+.closeicon::-ms-clear {
+	display: none;
+	width: 0;
+	height: 0;
+}
+a.tt-delete-icon span.k-icon.k-i-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	font-size: 11px;
+}
+.susarscroll {
+	height: 530px;
+	overflow: auto;
+}
+.navbar-collapse {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.ui-autocomplete-input:-ms-input-placeholder, input#spEmail:-ms-input-placeholder {
+	padding: 0 0 2px 5px;
+}
+.ui-autocomplete-input::-ms-clear {
+	display: none;
+}
+.boxFix *, .boxFix *::before, .boxFix *::after {
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+.pt-pickSPUser .pt-pickSPUser-person-cntr {
+	width: 235px;
+	border-radius: 5px;
+	padding: .3em !important;
+	margin: 0!important;
+}
+h5.chartdiv{
+	text-align: center;
+    padding-top: 3em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+tr.rowtemp:hover {
+	background-color: transparent !important;
+}
+tr.altrowtemp {
+	background-color: #FFFF25 !important;
+    color: #000;
+}
+
+tr.altrowtemp:hover {
+	background-color: #FFFF25 !important;
+}
+.text-center {
+	font-weight: 400;
+}
+.text-align-center {
+	text-align: center;
+}
+input[type=checkbox] {
+	margin: 4px 4px;
+	vertical-align: middle;
+}
+.margin-auto {
+	margin: auto!important;
+}
+label {
+	padding-top: 4px;
+    font-weight: 600 !important;
+	text-transform: uppercase;
+}
+
+ input[type=radio] {
+    margin: 2px 0 0;
+}
+
+.required {
+	color: red;
+}
+.border-top {
+	border-top: 4px solid #d9edf7;
+}
+#popWindow {
+	display: none;
+}
+hr {
+	width: 10%;
+	color: #fff;
+}
+
+.dual-list .list-group {
+            margin-top: 8px;
+        }
+
+.list-left li, .list-right li {
+    cursor: pointer;
+    font-size:12px;
+}
+
+.list-arrows {
+    padding-top: 80px;
+}
+
+.list-arrows button {
+    margin-bottom: 20px!important;
+    margin: 10px auto!important;
+    display: block!important;
+}
+
+#welcome-message {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#welcome-message p {
+	font-size: 13px;
+    padding: 0 5px;
+}
+.welcomemsg {
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: transparent url(../img/msg.png) center top no-repeat;
+	cursor: pointer;
+}
+.welcomemsg:hover {
+	background-image: url(../img/msg2.png);
+}
+#dateRangePicker {
+	background: #fff;
+	cursor: pointer;
+	padding: 3px 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+	border-radius: 5px;
+}
+.ranges li {
+	font-size: 11px !important;
+}
+
+h1.page-title {
+	margin: 20px 0 20px 8px !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+#fvpp-blackout {
+	opacity: 1;
+	margin-bottom: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+#my-welcome-message {
+	display: none;
+	z-index: 500;
+	position: fixed;
+	font-size: 13px;
+	width: 50%;
+	left: 25%;
+	top: 25%;
+	padding: 20px 2%;
+	background: #FFF;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	outline: 0;
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+#my-welcome-message h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+#fvpp-close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 30px;
+	cursor: pointer;
+}
+#fvpp-dialog h2 {
+	font-size: 2em;
+	margin: 0;
+}
+#fvpp-dialog p {
+	margin: 0;
+}
+@media (max-width: 768px) {
+	.nav>li {
+		margin-top: 5px;
+	}
+}
+
+/*susar button adjust sizes*/
+
+.update-btn-sp {
+    width: 143px;
+    margin-top: 5px;
+}
+
+.k-save-only{
+    width: 80px;
+}
+
+.cancel-btn-sp{
+    width: 80px;
+    margin-top: 5px;
+}
+
+.cancel-btn-sp2 {
+    width: 105px;
+    margin-top: 5px;
+}
